@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../../lib/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../../lib/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../../lib/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("../../lib/fonts/Montserrat/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../../lib/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+html,
+body {
+  user-select: text;
+  height: 100%;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  font-family: Montserrat-Medium, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 1.1em;
+  margin: 0px;
+  color: #3d3d3d;
+/*  background: #fafafa !important;*/
+  background: #f7f7f7 !important;
+  background-size: cover;
+}
+
+
+/*Scroll bar verde*/
+/*html ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #28a745;
+}
+
+html ::-webkit-scrollbar-track {
+  background: #fff;
+}*/
+
+input,
+textarea {
+  -webkit-touch-callout: default;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  font-size: 14px !important;
+}
+
+label {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  font-family: Montserrat-Bold, Helvetica, sans-serif;
+}
+
+strong {
+  font-family: "Montserrat-ExtraBold" !important;
+}
+
+input[type="time"], 
+input[type="number"],
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="time"]:focus, 
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(102, 175, 233, .5);
+  outline: none;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px !important;
+}
+
+select:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(102, 175, 233, .5);
+  outline: none;
+}
+
+.Montserrat-ExtraBold {
+  font-family: "Montserrat-ExtraBold" !important;
+}
+
+.Montserrat-Bold {
+  font-family: "Montserrat-Bold" !important;
+}
+
+.Montserrat-SemiBold {
+  font-family: "Montserrat-SemiBold" !important;
+}
+
+.Montserrat-Medium {
+  font-family: "Montserrat-Medium" !important;
+}
+
+.Montserrat-Regular {
+  font-family: "Montserrat-Regular" !important;
+}
+
+.font-size-10 {
+  font-size: 10px !important;
+}
+
+.font-size-11 {
+  font-size: 11px !important;
+}
+
+.font-size-12 {
+  font-size: 12px !important;
+}
+
+.font-size-13 {
+  font-size: 13px !important;
+}
+
+.font-size-14 {
+  font-size: 14px !important;
+}
+
+.font-size-16 {
+  font-size: 16px !important;
+}
+
+.font-size-17 {
+  font-size: 17px !important;
+}
+
+.font-size-20 {
+  font-size: 20px !important;
+}
+
+.font-size-25 {
+  font-size: 25px !important;
+}
+
+.font-size-35 {
+  font-size: 35px !important;
+}
+
+.font-size-50 {
+  font-size: 50px;
+}
+
+.font-size-60 {
+  font-size: 60px;
+}
+
+.card {
+  border-radius: 10px !important;
+/*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;*/
+}
+
+.btn {
+  font-family: "Montserrat-SemiBold";
+  font-size: 12px;
+  border-radius: 5px !important;
+
+}
+
+.btn:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn:focus {
+  box-shadow: 0px 2px 5px -1px #00000033;
+}
+
+.btn-verde {
+    padding: 8px 10px;
+    background-color: #28a745 !important;
+    color: #fff;
+    border: none;
+    border-radius: 10px !important;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.btn-verde:hover {
+    background-color: #218838;
+    color: #fff;
+}
+
+.btn-azul {
+  padding: 8px 10px;
+  background-color: #0b7fcc !important;
+  color: #ececec !important;
+  border: none;
+  border-radius: 10px !important;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+.btn-azul:hover {
+  background-color: #ececec !important;
+  color: #0b7fcc;
+}
+
+.border-radius-default {
+  border-radius: 20px !important;
+}
+
+.bg-verde {
+  background-color: #28a745 !important;
+  color: #fff !important;
+}
+
+.bg-branco {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.bg-branco-font{
+  color: #ececec;
+}
+
+.bg-vermelho {
+  background-color: #ae232d !important;
+  color: #fff !important;
+}
+
+.bg-gray {
+  background-color: #e6e7ef !important;
+  color: #3d3d3d
+}
+
+.delete-margin{
+  margin: 0;
+}
